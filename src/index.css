@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+h1{
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+table{
+  width: 100%;
+}
+table,th,tr,td{
+  padding: 10px;
+  border: 2px solid yellowgreen;
+  text-align: center;
+}
+
+.registration-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.event_btn{
+  border: 1px solid ;
+  padding: 10px 30px;
+  text-align: center;
+  margin: 10px auto;
+  display: block;
+  border-radius:10px;
+  background: cadetblue;
+  font-weight: bold;
+  color: white;
+}
+
+.event_btn:hover{
+  
+}
